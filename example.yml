@@ -1,0 +1,43 @@
+# Hey this is a yaml file
+my-course: "AWS Devops Profession Certification"
+version: 1.0 # number
+price: 299 # entier
+is_public: true
+release_date: 2022-01-19 # convention date: yyyy-mm-dd. Possible de ppersonnaliser
+pre_enroll: null
+# Liste
+category:
+ - AWS
+ - Devops
+ - AWS Certification
+
+# Liste 
+course_dev: ["murthy", "kavya","nirnay"]
+# Liste d'objets
+dev_details:
+ - name: "murthy"
+   email: "murthy@gmail.com"
+   role: "author"
+ - name: "kavya"
+   email: "kavya@gmail.com"
+   role: "Co-author"
+ - name: "nirnay"
+   email: "nirnay@gmail.com"
+   role: "Editor"
+ - {name: "navishha", email: "support@gmail.com", role: "Finance"} # autre méthode de spécifier l'objet
+
+
+# Description sur une ligne 
+short_description: > 
+ This is a course for 
+ AWS Devops Professional 
+ Certification
+
+# Description sur plusieurs lignes 
+detailed_description: |
+ This course has 
+ been created with
+ the collaboration with
+ Industry Experts and
+ curated by In-house team to
+ give best learning experience
